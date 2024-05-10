@@ -83,7 +83,6 @@ public class AggregatorController {
                 .append("ms")
                 .toString();
         logger.info(message);
-
         return entries;
     }
 }
